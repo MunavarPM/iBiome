@@ -13,6 +13,9 @@
 		DBE129CB2ABDD08E003FB6C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE129CA2ABDD08E003FB6C6 /* ContentView.swift */; };
 		DBE129CD2ABDD090003FB6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE129CC2ABDD090003FB6C6 /* Assets.xcassets */; };
 		DBE129D12ABDD090003FB6C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE129D02ABDD090003FB6C6 /* Preview Assets.xcassets */; };
+		DBE129DB2ABDD936003FB6C6 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE129DA2ABDD936003FB6C6 /* VisualEffectBlur.swift */; };
+		DBE129DE2ABE0E4D003FB6C6 /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE129DD2ABE0E4D003FB6C6 /* GradientText.swift */; };
+		DBE129E02ABE0E5A003FB6C6 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE129DF2ABE0E5A003FB6C6 /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DBE129CC2ABDD090003FB6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBE129CE2ABDD090003FB6C6 /* iBiome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iBiome.entitlements; sourceTree = "<group>"; };
 		DBE129D02ABDD090003FB6C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBE129DA2ABDD936003FB6C6 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		DBE129DD2ABE0E4D003FB6C6 /* GradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
+		DBE129DF2ABE0E5A003FB6C6 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,11 @@
 		DBE129C22ABDD08E003FB6C6 /* iBiome */ = {
 			isa = PBXGroup;
 			children = (
+				DBE129DC2ABE0E36003FB6C6 /* View */,
 				DBE129C32ABDD08E003FB6C6 /* iBiomeApp.swift */,
-				DBE129C52ABDD08E003FB6C6 /* Persistence.swift */,
 				DBE129CA2ABDD08E003FB6C6 /* ContentView.swift */,
+				DBE129C52ABDD08E003FB6C6 /* Persistence.swift */,
+				DBE129D72ABDD83E003FB6C6 /* Helpers */,
 				DBE129CC2ABDD090003FB6C6 /* Assets.xcassets */,
 				DBE129CE2ABDD090003FB6C6 /* iBiome.entitlements */,
 				DBE129C72ABDD08E003FB6C6 /* iBiome.xcdatamodeld */,
@@ -73,6 +81,23 @@
 				DBE129D02ABDD090003FB6C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBE129D72ABDD83E003FB6C6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DBE129DA2ABDD936003FB6C6 /* VisualEffectBlur.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DBE129DC2ABE0E36003FB6C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBE129DD2ABE0E4D003FB6C6 /* GradientText.swift */,
+				DBE129DF2ABE0E5A003FB6C6 /* GradientButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE129E02ABE0E5A003FB6C6 /* GradientButton.swift in Sources */,
+				DBE129DB2ABDD936003FB6C6 /* VisualEffectBlur.swift in Sources */,
 				DBE129C92ABDD08E003FB6C6 /* iBiome.xcdatamodeld in Sources */,
+				DBE129DE2ABE0E4D003FB6C6 /* GradientText.swift in Sources */,
 				DBE129C42ABDD08E003FB6C6 /* iBiomeApp.swift in Sources */,
 				DBE129CB2ABDD08E003FB6C6 /* ContentView.swift in Sources */,
 				DBE129C62ABDD08E003FB6C6 /* Persistence.swift in Sources */,

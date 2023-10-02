@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB19CAE62AC0655E004DF85D /* Splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = DB19CAE52AC0655E004DF85D /* Splash.gif */; };
+		DB19CAE82AC073B9004DF85D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19CAE72AC073B9004DF85D /* SplashView.swift */; };
+		DB19CAF02AC081DB004DF85D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DB19CAEF2AC081DB004DF85D /* SDWebImageSwiftUI */; };
+		DB19CAF22AC08869004DF85D /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19CAF12AC08869004DF85D /* OnBoardingView.swift */; };
+		DB19CAF72AC31D95004DF85D /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19CAF62AC31D94004DF85D /* TabModel.swift */; };
+		DB19CAFD2AC4C918004DF85D /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB19CAFB2AC4C917004DF85D /* PlayfairDisplay-Regular.ttf */; };
+		DB19CAFE2AC4C918004DF85D /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB19CAFC2AC4C918004DF85D /* PlayfairDisplay-Bold.ttf */; };
+		DB667C082AC82B08000FAD83 /* IPDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB667C072AC82B08000FAD83 /* IPDataModel.swift */; };
+		DB667C0A2AC82F94000FAD83 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB667C092AC82F94000FAD83 /* AppViewModel.swift */; };
 		DB6FED242ABEEE3E009A0ED1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FED232ABEEE3E009A0ED1 /* HomeView.swift */; };
 		DB6FED282ABF1835009A0ED1 /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FED272ABF1835009A0ED1 /* SignInWithAppleButton.swift */; };
-		DB6FED2A2ABF316C009A0ED1 /* datatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FED292ABF316C009A0ED1 /* datatype.swift */; };
 		DBE129C42ABDD08E003FB6C6 /* iBiomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE129C32ABDD08E003FB6C6 /* iBiomeApp.swift */; };
 		DBE129C62ABDD08E003FB6C6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE129C52ABDD08E003FB6C6 /* Persistence.swift */; };
 		DBE129C92ABDD08E003FB6C6 /* iBiome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBE129C72ABDD08E003FB6C6 /* iBiome.xcdatamodeld */; };
@@ -23,9 +31,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB19CAE52AC0655E004DF85D /* Splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Splash.gif; sourceTree = "<group>"; };
+		DB19CAE72AC073B9004DF85D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		DB19CAF12AC08869004DF85D /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		DB19CAF62AC31D94004DF85D /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		DB19CAFB2AC4C917004DF85D /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		DB19CAFC2AC4C918004DF85D /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		DB19CAFF2AC4CBC3004DF85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DB667C072AC82B08000FAD83 /* IPDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPDataModel.swift; sourceTree = "<group>"; };
+		DB667C092AC82F94000FAD83 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		DB6FED232ABEEE3E009A0ED1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DB6FED272ABF1835009A0ED1 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
-		DB6FED292ABF316C009A0ED1 /* datatype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datatype.swift; sourceTree = "<group>"; };
 		DBE129C02ABDD08E003FB6C6 /* iBiome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBiome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE129C32ABDD08E003FB6C6 /* iBiomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBiomeApp.swift; sourceTree = "<group>"; };
 		DBE129C52ABDD08E003FB6C6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -45,12 +61,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB19CAF02AC081DB004DF85D /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB19CAF82AC4C5C4004DF85D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB19CAFC2AC4C918004DF85D /* PlayfairDisplay-Bold.ttf */,
+				DB19CAFB2AC4C917004DF85D /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DB667C0B2AC82FA7000FAD83 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DB667C092AC82F94000FAD83 /* AppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DB667C0C2AC82FB6000FAD83 /* Mdoel */ = {
+			isa = PBXGroup;
+			children = (
+				DB667C072AC82B08000FAD83 /* IPDataModel.swift */,
+			);
+			path = Mdoel;
+			sourceTree = "<group>";
+		};
 		DBE129B72ABDD08E003FB6C6 = {
 			isa = PBXGroup;
 			children = (
@@ -70,11 +112,16 @@
 		DBE129C22ABDD08E003FB6C6 /* iBiome */ = {
 			isa = PBXGroup;
 			children = (
+				DB667C0C2AC82FB6000FAD83 /* Mdoel */,
+				DB667C0B2AC82FA7000FAD83 /* ViewModel */,
+				DB19CAFF2AC4CBC3004DF85D /* Info.plist */,
 				DBE129C32ABDD08E003FB6C6 /* iBiomeApp.swift */,
 				DBE129DC2ABE0E36003FB6C6 /* View */,
 				DBE129CA2ABDD08E003FB6C6 /* SignupView.swift */,
 				DB6FED232ABEEE3E009A0ED1 /* HomeView.swift */,
+				DB19CAF62AC31D94004DF85D /* TabModel.swift */,
 				DBE129C52ABDD08E003FB6C6 /* Persistence.swift */,
+				DB19CAE52AC0655E004DF85D /* Splash.gif */,
 				DBE129D72ABDD83E003FB6C6 /* Helpers */,
 				DBE129CC2ABDD090003FB6C6 /* Assets.xcassets */,
 				DBE129CE2ABDD090003FB6C6 /* iBiome.entitlements */,
@@ -95,6 +142,7 @@
 		DBE129D72ABDD83E003FB6C6 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DB19CAF82AC4C5C4004DF85D /* Fonts */,
 				DBE129DA2ABDD936003FB6C6 /* VisualEffectBlur.swift */,
 			);
 			path = Helpers;
@@ -104,7 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				DBE129DD2ABE0E4D003FB6C6 /* GradientText.swift */,
-				DB6FED292ABF316C009A0ED1 /* datatype.swift */,
+				DB19CAE72AC073B9004DF85D /* SplashView.swift */,
+				DB19CAF12AC08869004DF85D /* OnBoardingView.swift */,
 				DBE129DF2ABE0E5A003FB6C6 /* GradientButton.swift */,
 				DB6FED272ABF1835009A0ED1 /* SignInWithAppleButton.swift */,
 				DBE129E12ABE19DD003FB6C6 /* TextFieldIcon.swift */,
@@ -128,6 +177,9 @@
 			dependencies = (
 			);
 			name = iBiome;
+			packageProductDependencies = (
+				DB19CAEF2AC081DB004DF85D /* SDWebImageSwiftUI */,
+			);
 			productName = iBiome;
 			productReference = DBE129C02ABDD08E003FB6C6 /* iBiome.app */;
 			productType = "com.apple.product-type.application";
@@ -156,6 +208,10 @@
 				Base,
 			);
 			mainGroup = DBE129B72ABDD08E003FB6C6;
+			packageReferences = (
+				DB19CAE92AC080AC004DF85D /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				DB19CAEE2AC081DB004DF85D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = DBE129C12ABDD08E003FB6C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -170,7 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB19CAFD2AC4C918004DF85D /* PlayfairDisplay-Regular.ttf in Resources */,
+				DB19CAE62AC0655E004DF85D /* Splash.gif in Resources */,
 				DBE129D12ABDD090003FB6C6 /* Preview Assets.xcassets in Resources */,
+				DB19CAFE2AC4C918004DF85D /* PlayfairDisplay-Bold.ttf in Resources */,
 				DBE129CD2ABDD090003FB6C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,12 +246,16 @@
 				DBE129E22ABE19DD003FB6C6 /* TextFieldIcon.swift in Sources */,
 				DBE129E02ABE0E5A003FB6C6 /* GradientButton.swift in Sources */,
 				DBE129DB2ABDD936003FB6C6 /* VisualEffectBlur.swift in Sources */,
+				DB19CAF72AC31D95004DF85D /* TabModel.swift in Sources */,
+				DB19CAE82AC073B9004DF85D /* SplashView.swift in Sources */,
 				DBE129C92ABDD08E003FB6C6 /* iBiome.xcdatamodeld in Sources */,
-				DB6FED2A2ABF316C009A0ED1 /* datatype.swift in Sources */,
+				DB667C082AC82B08000FAD83 /* IPDataModel.swift in Sources */,
+				DB667C0A2AC82F94000FAD83 /* AppViewModel.swift in Sources */,
 				DBE129DE2ABE0E4D003FB6C6 /* GradientText.swift in Sources */,
 				DBE129C42ABDD08E003FB6C6 /* iBiomeApp.swift in Sources */,
 				DBE129CB2ABDD08E003FB6C6 /* SignupView.swift in Sources */,
 				DBE129C62ABDD08E003FB6C6 /* Persistence.swift in Sources */,
+				DB19CAF22AC08869004DF85D /* OnBoardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +387,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iBiome/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iBiome/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -360,6 +424,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iBiome/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iBiome/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -407,6 +472,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB19CAE92AC080AC004DF85D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.2;
+			};
+		};
+		DB19CAEE2AC081DB004DF85D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB19CAEF2AC081DB004DF85D /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB19CAEE2AC081DB004DF85D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DBE129C72ABDD08E003FB6C6 /* iBiome.xcdatamodeld */ = {

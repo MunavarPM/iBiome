@@ -13,7 +13,7 @@ struct iBiomeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            SignupView()
+            SplashView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
